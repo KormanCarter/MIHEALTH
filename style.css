@@ -47,12 +47,12 @@ header{
 }
 
 .text {
-    font-size: 20px;
+    font-size: 23px;
     font-style: oblique;
     flex-direction: column;
     text-align: left;
     margin-top: 50px;
-    padding-left: 100px;
+    padding-left: 30px;
     display: flex;
 }
 
@@ -76,4 +76,15 @@ header{
     max-width: calc(100% / 3 - 10px); /* Ensure images don't overflow */
     object-fit: cover;        /* Maintain aspect ratio while filling */
     border-radius: 8px;       /* Optional: add rounded corners */
+}
+.Meals{
+    font-size: 20px;
+    margin-right: 150px;
+    word-spacing: 50px;
+}
+.Menu{
+    font-size: 23px;
+    text-decoration: underline;
+    padding-left: 30px;
+    padding-top: 30px;
 }
