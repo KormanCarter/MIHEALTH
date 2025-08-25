@@ -56,35 +56,92 @@ header{
     display: flex;
 }
 
-.food {
+figure {
     position: relative;
     display: flex;
-    width: 65%;              /* Increased width to better fit screen */
+    width: 65vw;              
     height: 60vh;             
-       /* Center the container horizontally and add top margin */
-     /* Center images vertically within container */
-    /* Align images to the right side of container */
-    gap: 5px;            /* Add some space between images */
-    bottom:  20%;
+    gap: 5px;            
+    bottom:  30%;
     float: right;
     justify-content: center;
 }
-
-.food img {
-    flex: 1;
-    height: 100%;             /* Fill container vertically */
-    max-width: calc(100% / 3 - 10px); /* Ensure images don't overflow */
-    object-fit: cover;        /* Maintain aspect ratio while filling */
-    border-radius: 8px;       /* Optional: add rounded corners */
+figcaption{
+    flex-direction: column;
+    position: absolute;
 }
+
+.shrimp1{
+    position: absolute;
+    bottom: 50px;
+    left: 400px;
+    font-style: italic;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    
+}
+.shrimp2{
+    position: absolute;
+    bottom: 20px;
+    left: 400px;
+    font-style: italic;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    
+}
+.pasta1{
+    position: absolute;
+    bottom: 50px;
+    right: 400px;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    font-style: italic;
+}
+.pasta2{
+    position: absolute;
+    bottom: 20px;
+    right: 400px;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    font-style: italic;
+}
+.beef1{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    font-style: italic;
+
+}
+.beef2{
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    font-style: italic;
+
+}
+
 .Meals{
     font-size: 20px;
     margin-right: 150px;
     word-spacing: 50px;
+
 }
 .Menu{
-    font-size: 23px;
+    font-size: 20px;
     text-decoration: underline;
     padding-left: 30px;
-    padding-top: 30px;
+}
+.adjectives{
+    position: relative;
+    word-spacing: 500px;
 }
